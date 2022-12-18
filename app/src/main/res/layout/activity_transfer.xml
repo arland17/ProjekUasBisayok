@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransferActivity"
+    android:layout_gravity="center"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:backgroundTint="#000020">
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_height="70dp"
+                android:src="@drawable/logodana"
+                android:layout_margin="5dp"
+                android:id="@+id/ivLogoDana"
+                android:layout_width="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-wallet"
+                android:textSize="20dp"
+                android:textColor="@color/blue"
+                android:fontFamily="@font/garamondmediumitalic"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/chip"
+                android:layout_gravity="left" />
+            <TextView
+                android:layout_gravity="left"
+                android:text="8528 0851 5746 3733 "
+                android:fontFamily="@font/micrenc"
+                android:textColor="@color/blue"
+                android:layout_marginTop="125dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mastercard"
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:backgroundTint="#808080">
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_height="70dp"
+                android:src="@drawable/logoovo"
+                android:layout_margin="5dp"
+                android:id="@+id/ivLogoGopay"
+                android:layout_width="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-wallet"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/garamondmediumitalic"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/chip"
+                android:layout_gravity="left" />
+            <TextView
+                android:layout_gravity="left"
+                android:text="8099 0851 5746 3733 "
+                android:fontFamily="@font/micrenc"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="125dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mastercard"
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:backgroundTint="@color/white">
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_height="70dp"
+                android:src="@drawable/logogopay"
+                android:layout_margin="5dp"
+                android:id="@+id/ivLogoOvo"
+                android:layout_width="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-wallet"
+                android:textSize="20dp"
+                android:textColor="#247dfa"
+                android:fontFamily="@font/garamondmediumitalic"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/chip"
+                android:layout_gravity="left" />
+            <TextView
+                android:layout_gravity="left"
+                android:text="8099 0851 5746 3733 "
+                android:fontFamily="@font/micrenc"
+                android:textColor="#247dfa"
+                android:layout_marginTop="125dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mastercard"
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUploadPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/poppinsregular"
+            app:cornerRadius="20dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Upload Payment"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
