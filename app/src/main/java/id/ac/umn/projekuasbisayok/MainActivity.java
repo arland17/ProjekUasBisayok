@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
             startActivity(intent);
-            test
         });
     }
 }
